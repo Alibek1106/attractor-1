@@ -1,0 +1,199 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+}
+
+h1, h2{
+    font-size: 40px;
+}
+
+.container{
+    padding: 0 250px;
+}
+
+.nothing{
+    height: 83.2px;
+    background-color: #000;
+}
+
+.header{
+    padding: 30px 0;
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 2px 2px #000;
+}
+
+.header-list{
+    display: flex;
+    justify-content: center;
+}
+
+.header-itms{
+    color: #fff;
+    font-size: 18px;
+}
+
+.header-itms:not(:last-child){
+    margin-right: 50px;
+}
+
+.hero{
+    padding: 80px 0;
+}
+
+.about-me{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-text{
+    max-width: 400px;
+}
+
+.header-hero{
+    margin-bottom: 30px;
+}
+
+.u-header-hero{
+    letter-spacing: 2px;
+}
+
+.my-pic-hero{
+    height: 370px;
+    width: 440px;
+}
+
+.wynthm{
+    padding: 80px 0;
+}
+
+.wynthm-header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.lists-gen{
+    font-size: 18px;
+}
+
+.ul-ol-lists{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.wynthm-ul{
+    list-style: inside;
+}
+
+.mw{
+    padding: 80px;
+}
+
+.mw-span{
+    font-size: 17px;
+    font-style: oblique;
+    margin: 30px 0;
+    letter-spacing: 2px;
+}
+
+.mw-text{
+    text-align: center;
+}
+
+.galery{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.g:not(:last-child){
+    margin-bottom: 30px;
+}
+
+.galery-pics{
+    height: 400px;
+}
+
+.prodes{
+    width: 500px;
+}
+
+.cap{
+    margin-bottom: 20px;
+}
+
+.table{
+    padding: 80px 0;
+}
+
+table{
+    margin: 0 auto;
+}
+
+table {
+    font-size: 14px;
+    border-collapse: collapse;
+    text-align: center;
+}
+th{
+    background: #AFCDE7;
+    color: white;
+}
+th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+    padding: 10px 20px;
+}
+td {
+    background: #D8E6F3;
+}
+th:first-child, td:first-child {
+    text-align: left;
+}
+
+.footer{
+    background-color: rgb(155, 155, 155);
+    padding: 80px 0;
+}
+
+.form{
+    text-align: center;
+}
+
+input::placeholder{
+    color: #000;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.input{
+    border: 1px solid #000;
+    padding: 10px;
+    width: 400px;
+    border-radius: 50px;
+    background-color: inherit;
+}
+
+.inp:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.comp-info{
+    margin-bottom:50px;
+}
+
+button{
+    background-color: #AFCDE7;
+    border: 1px solid #000;
+    width: 100px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.comments{
+    text-align: center;
+    padding: 50px;
+}
